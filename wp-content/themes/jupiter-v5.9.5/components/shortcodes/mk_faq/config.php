@@ -1,6 +1,6 @@
 <?php
 extract( shortcode_atts( array(
-	"sortable"  => 'true',
+	"sortable"  => 'false',
 	'order'     => 'ASC',
 	'count'     => 50,
 	'style'     => 'fancy',
