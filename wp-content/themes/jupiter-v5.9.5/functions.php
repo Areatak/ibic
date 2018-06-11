@@ -11,6 +11,9 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 1140;
 }
 
+// Enable shortcodes in text widgets
+add_filter('widget_text','do_shortcode');
+
 class Theme {
 
 	public function __construct( $check = false ) {
